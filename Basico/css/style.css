@@ -1,0 +1,7 @@
+.destaque{
+    width: 600px;
+    height: 600px;
+    background: url(../img/hulk.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}

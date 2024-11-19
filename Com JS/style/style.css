@@ -1,0 +1,80 @@
+.div1{
+    
+}
+
+
+
+.batman{
+    background-image: url(../img/batman.jpg);
+    width: 800px;
+    height: 800px;
+    background-size: cover;
+    animation: girar 2s linear infinite;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.superman{
+    background-image: url(../img/superman.jpg);
+    width: 800px;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:50%;
+    animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.ironman{
+    background-image: url(../img/ironman.jpg);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    border-radius:50%;
+    animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spiderman{
+    background-image: url(../img/spiderman.jpg);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    animation: girar 2s linear infinite; 
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
